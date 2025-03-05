@@ -1,0 +1,37 @@
+{
+    "sessdata":{
+        "type": "string",
+        "description": "SESSDATA 用于获取对应用户信息",
+        "hint": "SESSDATA 用于一般在获取对应用户信息时提供，通常是 GET 操作下提供，此类操作一般不会进行操作，仅读取信息"
+    },
+    "bili_jct": {
+        "type": "string",
+        "description": "bili_jct 用于进行操作用户数据",
+        "hint": "bili_jct 用于一般在进行操作用户数据时提供，通常是 POST 操作下提供, 此类操作会修改用户数据"
+
+    },
+    "buvid3": {
+        "type": "string",
+        "description": "设备验证, 与风控有关",
+        "hint": "通常不需要提供，但如放映室内部分接口需要提供，同时与风控有关"
+    },
+    "buvid4": {
+        "type": "string",
+        "description": "设备验证, 与风控有关" ,
+        "hint": "通常不需要提供，但如放映室内部分接口需要提供，同时与风控有关"
+    },
+    "dedeuserid": {
+        "type": "string",
+        "description": "用户ID",
+        "hint": "dedeuserid 通常为用户 UID ，几乎不需要提供"
+    },
+    "ac_time_value": {
+        "type": "string",
+        "description": "用于刷新 Cookies",
+        "hint": "ac_time_value 在登录时获取，登录状态过期后用于刷新 Cookies，没有此值则只能重新登录，如不需要凭据刷新则不需要提供"
+    },
+    "ffmpeg_path": {
+        "type": "string",
+        "description": "ffmpeg 路径"
+    }
+}
