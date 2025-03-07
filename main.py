@@ -113,7 +113,7 @@ UP主: {info['owner']['name']}
         
 
 
-    @event_message_type(EventMessageType.ALL)
+    @platform_adapter_type(PlatformAdapterType.AIOCQHTTP)
     async def on_message(self, event: AstrMessageEvent):
         """监听所有消息事件"""
         
