@@ -115,7 +115,7 @@ UP主: {info['owner']['name']}
 
     @platform_adapter_type(PlatformAdapterType.AIOCQHTTP)
     async def on_message(self, event: AstrMessageEvent):
-        """监听所有消息事件"""
+        """监听cqhttp消息事件"""
         
         bili = event.message_obj.message
         event_str = event.message_str
