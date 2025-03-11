@@ -71,6 +71,8 @@ UP主: {info['owner']['name']}
 播放量: {info['stat']['view']}
 点赞: {info['stat']['like']}
 投币: {info['stat']['coin']}
+分享: {info['stat']['share']}
+评论: {info['stat']['reply']}
 总共 {online['total']} 人正在观看"""
             ls = [Plain(ret), Image.fromURL(info["pic"])]
 
